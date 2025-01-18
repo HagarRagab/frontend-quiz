@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Where in an HTML document is the correct place to refer to an external style sheet?",
+        "answer_1": "At the end of the document",
+        "answer_2": "In the &lt;head&gt; section",
+        "answer_3": "At the top of the document",
+        "answer_4": "In the &lt;body&gt; section",
+        "correct": 2
+    },
+    {
+        "question": "Which is the correct CSS syntax?",
+        "answer_1": "body {color: black}",
+        "answer_2": "{body;color:black}",
+        "answer_3": "{body:color=black(body}",
+        "answer_4": "body:color=black",
+        "correct": 1
+    },
+    {
+        "question": "How do you change the text color of an element?",
+        "answer_1": "text-color=",
+        "answer_2": "fgcolor:",
+        "answer_3": "color:",
+        "answer_4": "text-color:",
+        "correct": 3
+    },
+    {
+        "question": "How do you display hyperlinks without an underline?",
+        "answer_1": "a {text-decoration:no underline}",
+        "answer_2": "a {decoration:no underline}",
+        "answer_3": "a {text-decoration:none}",
+        "answer_4": "a {underline:none}",
+        "correct": 3
+    },
+    {
+        "question": "How do you make each word in a text start with a capital letter?",
+        "answer_1": "text-transform:capitalize",
+        "answer_2": "You can’t do that with CSS",
+        "answer_3": "text-transform:uppercase",
+        "answer_4": "None of them",
+        "correct": 1
+    }
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "question": "A webpage displays a picture. What tag was used to display that picture?",
+        "answer_1": "picture",
+        "answer_2": "image",
+        "answer_3": "img",
+        "answer_4": "src",
+        "correct": 3
+    },
+    {
+        "question": "&lt;b&gt; tag makes the enclosed text bold. What is other tag to make text bold?",
+        "answer_1": "&lt;strong&gt;",
+        "answer_2": "&lt;dar&gt;",
+        "answer_3": "&lt;black&gt;",
+        "correct": 1
+    },
+    {
+        "question": "Tags and test that are not directly displayed on the page are written in _____ section.",
+        "answer_1": "&lt;html&gt;",
+        "answer_2": "&lt;head&gt;",
+        "answer_3": "&lt;title&gt;",
+        "answer_4": "&lt;body&gt;",
+        "correct": 2
+    },
+    {
+        "question": "Which tag inserts a line horizontally on your web page?",
+        "answer_1": "&lt;hr&gt;",
+        "answer_2": "&lt;line&gt;",
+        "answer_3": "&lt;line direction=”horizontal”&gt;",
+        "answer_4": "&lt;tr&gt;",
+        "correct": 1
+    },
+    {
+        "question": "What should be the first tag in any HTML document?",
+        "answer_1": "&lt;head&gt;",
+        "answer_2": "&lt;title&gt;",
+        "answer_3": "&lt;html&gt;",
+        "answer_4": "&lt;document&gt;",
+        "correct": 3
+    },
+    {
+        "question": "Which tag allows you to add a row in a table?",
+        "answer_1": "&lt;td&gt; and &lt;/td&gt;",
+        "answer_2": "&lt;cr&gt; and &lt;/cr&gt;",
+        "answer_3": "&lt;th&gt; and &lt;/th&gt;",
+        "answer_4": "&lt;tr&gt; and &lt;/tr&gt;",
+        "correct": 4
+    },
+    {
+        "question": "How can you make a bulleted list?",
+        "answer_1": "&lt;list&gt;",
+        "answer_2": "&lt;nl&gt;",
+        "answer_3": "&lt;ul&gt;",
+        "answer_4": "&lt;ol&gt;",
+        "correct": 3
+    },
+    {
+        "question": "How can you make a numbered list?",
+        "answer_1": "&lt;dl&gt;",
+        "answer_2": "&lt;ol&gt;",
+        "answer_3": "&lt;list&gt;",
+        "answer_4": "&lt;ul&gt;",
+        "correct": 2
+    },
+    {
+        "question": "How can you make an e-mail link?",
+        "answer_1": "&lt;a href=”xxx@yyy”&gt;",
+        "answer_2": "&lt;mail href=”xxx@yyy”&gt;",
+        "answer_3": "&lt;mail&gt;xxx@yyy&lt;/mail&gt;",
+        "answer_4": "&lt;a href=”mailto:xxx@yyy”&gt;",
+        "correct": 4
+    },
+    {
+        "question": "What is the correct HTML for making a hyperlink?",
+        "answer_1": "&lt;a href=”http://mcqmate.com”&gt;ICT Trends Quiz&lt;/a&gt;",
+        "answer_2": "&lt;a name=”http://mcqmate.com”&gt;ICT Trends Quiz&lt;/a&gt;",
+        "answer_3": "&lt;http://mcqmate.com&lt;/a&gt;",
+        "answer_4": "&lt;a url=”http://mcqmate.com”&gt;ICT Trends Quiz&lt;/a&gt;",
+        "correct": 1
+    }
+]

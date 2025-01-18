@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="src/img/quiz-blue-icon.png" />
+        <!-- CSS -->
+        <link rel="stylesheet" href="src/css/style.css" />
+        <!-- Main JS -->
+        <script defer src="src/js/script.js"></script>
+        <title>Quiz app</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="home">
+                <!-- Start hero -->
+                <div class="hero">
+                    <header class="header">
+                        <img
+                            src="./src/img/quiz-blue-icon.png"
+                            alt=""
+                            class="logo"
+                        />
+                    </header>
+                    <section class="landing-page">
+                        <div class="content">
+                            <h1>free quiz app</h1>
+                            <p>
+                                You can test your skills. Every test contains 10
+                                questions and there a time limit. The test is
+                                not official, it's just a nice way to see how
+                                much you know, or don't know.
+                            </p>
+                            <p>Count Your Score:</p>
+                            <p>
+                                You will get 1 point for each correct answer. At
+                                the end of the Quiz, your total score will be
+                                displayed. Maximum score is 10 points.
+                            </p>
+                        </div>
+                        <img src="src/img/jury-voting.svg" alt="jury-voting" />
+                    </section>
+                </div>
+                <!-- End hero -->
+                <section class="exam-start">
+                    <h3>Select a language</h3>
+                    <ul class="options">
+                        <li class="opt-btn" data-value="html">
+                            html
+                            <img src="src/img/html.svg" alt="html" />
+                        </li>
+                        <li class="opt-btn" data-value="css">
+                            css
+                            <img src="src/img/css-alt.svg" alt="css" />
+                        </li>
+                        <li class="opt-btn" data-value="js">
+                            js
+                            <img src="src/img/javascript.svg" alt="js" />
+                        </li>
+                        <li class="opt-btn" data-value="react">
+                            react
+                            <img src="src/img/react.png" alt="react" />
+                        </li>
+                    </ul>
+                    <button id="start-btn">Start</button>
+                    <p class="error error-hidden">Please select an option</p>
+                </section>
+            </div>
+
+            <!-- Start quiz -->
+            <div class="spinner hidden">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <section class="quiz hidden">
+                <div class="quiz__header">
+                    <h1>awesome quiz application</h1>
+                    <div class="quiz__header--time">
+                        time left <span class="seconds">15</span>
+                    </div>
+                </div>
+
+                <div class="quiz__timeline">
+                    <div class="quiz__timeline--progress"></div>
+                </div>
+
+                <div class="quiz__question">
+                    <div class="quiz__question--ask"></div>
+                    <div class="quiz__question--answers"></div>
+                </div>
+
+                <hr />
+
+                <div class="quiz__footer">
+                    <p class="progress">
+                        <span class="progress__current"></span>
+                        <span>of</span>
+                        <span class="progress__total"></span>
+                        <span>questions</span>
+                    </p>
+                    <button class="quiz__footer--next-btn">next que</button>
+                </div>
+            </section>
+            <!-- End quiz -->
+
+            <!-- Start final screen -->
+            <div class="final hidden">
+                <img src="src/img/jury-voting.svg" alt="" />
+                <div class="final__result">
+                    You scored
+                    <div class="final__result--score"></div>
+                    <div class="final__result--assessment"></div>
+                    <button class="final__back-btn">back home</button>
+                </div>
+            </div>
+            <!-- End final screen -->
+        </div>
+    </body>
+</html>

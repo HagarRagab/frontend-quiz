@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Javascript is an _______ language?",
+        "answer_1": "Object-Oriented",
+        "answer_2": "Object-Based",
+        "answer_3": "Procedural",
+        "answer_4": "None of the above",
+        "correct": 1
+    },
+    {
+        "question": "Which of the following keywords is used to define a variable in Javascript?",
+        "answer_1": "var",
+        "answer_2": "let",
+        "answer_3": "Both A and B",
+        "answer_4": "None of the above",
+        "correct": 3
+    },
+    {
+        "question": "Which of the following methods is used to access HTML elements using Javascript?",
+        "answer_1": "getElementById()",
+        "answer_2": "getElementsByClassName()",
+        "answer_3": "Both A and B",
+        "answer_4": "None of the above",
+        "correct": 3
+    },
+    {
+        "question": "Upon encountering empty statements, what does the Javascript Interpreter do?",
+        "answer_1": "Throws an error",
+        "answer_2": "Ignores the statements",
+        "answer_3": "Gives a warning",
+        "answer_4": "None of the above",
+        "correct": 2
+    },
+    {
+        "question": "Which of the following methods can be used to display data in some form using Javascript?",
+        "answer_1": "document.write()",
+        "answer_2": "console.log()",
+        "answer_3": "Window.alert()",
+        "answer_4": "All of the above",
+        "correct": 4
+    },
+    {
+        "question": "How can a datatype be declared to be a constant type?",
+        "answer_1": "const",
+        "answer_2": "var",
+        "answer_3": "let",
+        "answer_4": "constant",
+        "correct": 1
+    },
+    {
+        "question": "When the switch statement matches the expression with the given labels, how is the comparison done?",
+        "answer_1": "Both the datatype and the result of the expression are compared.",
+        "answer_2": "Only the datatype of the expression is compared.",
+        "answer_3": "Only the value of the expression is compared.",
+        "answer_4": "None of the above",
+        "correct": 1
+    },
+    {
+        "question": "What is the use of the <noscript> tag in Javascript?",
+        "answer_1": "The contents are displayed by non-JS-based browsers.",
+        "answer_2": "Clears all the cookies and cache.",
+        "answer_3": "Both A and B.",
+        "answer_4": "None of the above",
+        "correct": 1
+    },
+    {
+        "question": "When an operator’s value is NULL, the typeof returned by the unary operator is:",
+        "answer_1": "Boolean",
+        "answer_2": "Undefined",
+        "answer_3": "Object",
+        "answer_4": "Integer",
+        "correct": 3
+    },
+    {
+        "question": "What does the Javascript “debugger” statement do?",
+        "answer_1": "It will debug all the errors in the program at runtime.",
+        "answer_2": "It acts as a breakpoint in a program.",
+        "answer_3": "It will debug error in the current statement if any.",
+        "answer_4": "All of the above",
+        "correct": 2
+    }
+]

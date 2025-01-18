@@ -1,0 +1,48 @@
+[
+    {
+        "question": "When setState()  is called inside render() method, which of the following events takes place?",
+        "answer_1": "duplicate key error",
+        "answer_2": "repetitive output happiness on the screen",
+        "answer_3": "nothing happens",
+        "answer_4": "stackoverflow error",
+        "correct": 4
+    },
+    {
+        "question": "State whether true or false: React.js covers only the view layer of the app.",
+        "answer_1": "true",
+        "answer_2": "false",
+        "correct": 1
+    },
+    {
+        "question": "The function which is called to render HTML to a web page in react?",
+        "answer_1": "ReactDOM_render()",
+        "answer_2": "render()",
+        "answer_3": "render_DOM()",
+        "answer_4": "DOM_HTML()",
+        "correct": 2
+    },
+    {
+        "question": "Using which of the following command can prevent default behaviour at in react?",
+        "answer_1": "preventDefault()",
+        "answer_2": "avoidDefault()",
+        "answer_3": "revokeDefault()",
+        "answer_4": "None of the above",
+        "correct": 1
+    },
+    {
+        "question": "What are arbitrary inputs of components in react also known as?",
+        "answer_1": "Elements",
+        "answer_2": "Props",
+        "answer_3": "Keys",
+        "answer_4": "Ref",
+        "correct": 2
+    },
+    {
+        "question": "What is ReactJS mainly used for building?",
+        "answer_1": "Database",
+        "answer_2": "Connectivity",
+        "answer_3": "User interface",
+        "answer_4": "Design platform",
+        "correct": 3
+    }
+]
