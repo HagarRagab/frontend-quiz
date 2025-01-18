@@ -5,11 +5,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Favicon -->
-        <link rel="icon" type="image/png" href="src/img/quiz-blue-icon.png" />
+        <link
+            rel="icon"
+            type="image/png"
+            href="assets/img/quiz-blue-icon.png"
+        />
         <!-- CSS -->
-        <link rel="stylesheet" href="src/css/style.css" />
+        <link rel="stylesheet" href="./css/style.css" />
         <!-- Main JS -->
-        <script defer src="src/js/script.js"></script>
+        <script defer src="./js/script.js"></script>
         <title>Quiz app</title>
     </head>
     <body>
@@ -19,7 +23,7 @@
                 <div class="hero">
                     <header class="header">
                         <img
-                            src="./src/img/quiz-blue-icon.png"
+                            src="./assets/img/quiz-blue-icon.png"
                             alt=""
                             class="logo"
                         />
@@ -40,7 +44,10 @@
                                 displayed. Maximum score is 10 points.
                             </p>
                         </div>
-                        <img src="src/img/jury-voting.svg" alt="jury-voting" />
+                        <img
+                            src="assets/img/jury-voting.svg"
+                            alt="jury-voting"
+                        />
                     </section>
                 </div>
                 <!-- End hero -->
@@ -49,19 +56,19 @@
                     <ul class="options">
                         <li class="opt-btn" data-value="html">
                             html
-                            <img src="src/img/html.svg" alt="html" />
+                            <img src="assets/img/html.svg" alt="html" />
                         </li>
                         <li class="opt-btn" data-value="css">
                             css
-                            <img src="src/img/css-alt.svg" alt="css" />
+                            <img src="assets/img/css-alt.svg" alt="css" />
                         </li>
                         <li class="opt-btn" data-value="js">
                             js
-                            <img src="src/img/javascript.svg" alt="js" />
+                            <img src="assets/img/javascript.svg" alt="js" />
                         </li>
                         <li class="opt-btn" data-value="react">
                             react
-                            <img src="src/img/react.png" alt="react" />
+                            <img src="assets/img/react.png" alt="react" />
                         </li>
                     </ul>
                     <button id="start-btn">Start</button>
@@ -108,7 +115,7 @@
 
             <!-- Start final screen -->
             <div class="final hidden">
-                <img src="src/img/jury-voting.svg" alt="" />
+                <img src="assets/img/jury-voting.svg" alt="" />
                 <div class="final__result">
                     You scored
                     <div class="final__result--score"></div>

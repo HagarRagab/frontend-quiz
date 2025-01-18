@@ -61,10 +61,11 @@ const handleStartButton = async function () {
 //? Getting questions from JSON files
 const fetchData = async function () {
     try {
-        const data = await fetch(
-            `../questions/${choosenOption.dataset.value}.json`
+        const res = await fetch(
+            `./questions/${choosenOption.dataset.value}.json`
         );
-        finalData = await data.json();
+        console.log(res);
+        finalData = await res.json();
     } catch (error) {
         console.error("There no selected option");
         errorEle.classList.remove("error-hidden");
@@ -105,7 +106,7 @@ const highlightAnswer = function (answerEle, icon) {
         "beforeend",
         `
             <svg>
-                <use href="src/img/icons.svg#icon-${icon}"></use>
+                <use href="assets/img/icons.svg#icon-${icon}"></use>
             </svg>
         `
     );
