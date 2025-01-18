@@ -6,7 +6,7 @@
 -   [KeyFeatures](#key-features)
 -   [TechnicalStack](#technical-stack)
 
-**Live demo** [click here](https://frontend-quizz-app.netlify.app/)
+**Live demo** [click here](https://frontend-quizzz-app.netlify.app/)
 
 ![alt text](./assets/img/overview.jpg)
 
